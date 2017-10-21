@@ -1,41 +1,46 @@
-@font-face {
-    font-family: OvertheRainbow;
-    src: url(font/OvertheRainbow.ttf);
-}
-
-*{
-    font-family: OvertheRainbow;
-
-}
-
-/*BODY*/
-
 body{
-
+    margin:0;
+    font-family: Princ;
 }
 
-/*HEADER*/
+main{
+}
 
-header{
+#flower {
+    height:100vh;
+    background-image: url(img/photofleur.jpg);
+    background-size: cover;
+
+}
+ @font-face {
+     font-family: "OvertheRainbow";
+     src: url('font/OvertheRainbow.ttf');
+    }
     
-}
+    *{
+     font-family: OvertheRainbow;
+    
+    }
 
-header h1{
-    color: whitesmoke;
-    font-family: OvertheRainbow;
-}
+    header h1{
+        font-family:OvertheRainbow;
+        color: white;
+    
+    }
 
-/*SECTION*/
+    header{
+        color: rgb(245, 245, 245);
+        font-family: OvertheRainbow;
+    }
 
-section{
 
-}
+    @font-face {
+        font-family:"Princ";
+        src: url('font/Prince.TTF');
+    }
 
-section img{
-    width: 100%;
-}
-/*FOOTER*/
+    *{
+    font-family: Princ;    
+    }
 
-footer{
 
-}
