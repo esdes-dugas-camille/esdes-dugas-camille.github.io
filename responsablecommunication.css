@@ -1,0 +1,28 @@
+
+
+
+body{
+    background-color: #3D3C3C;
+}
+
+@font-face {
+    font-family: "OvertheRainbow";
+    src: url('font/OvertheRainbow.ttf');
+   }
+
+   
+
+   header h1{
+    font-family:OvertheRainbow;
+    color: white;
+
+}
+
+@font-face{
+    font-family:"Princ";
+    src:url('Princ.TTF');
+}
+
+article {
+    font-family: Princ;
+}
