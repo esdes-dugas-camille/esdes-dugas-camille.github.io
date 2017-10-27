@@ -2,7 +2,7 @@
 
 
 body{
-    background-color: #3D3C3C;
+    background-color: rgb(165, 163, 163);
 }
 
 @font-face {
@@ -12,7 +12,7 @@ body{
 
    
 
-   header h1{
+ h1{
     font-family:OvertheRainbow;
     color: white;
 
@@ -25,4 +25,8 @@ body{
 
 article {
     font-family: Princ;
+}
+
+h2{
+    font-family:OvertheRainbow;  
 }
