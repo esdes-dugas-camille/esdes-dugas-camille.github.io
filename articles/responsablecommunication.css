@@ -1,0 +1,38 @@
+@font-face{
+    font-family: "Princ";
+    src:url('Princ.TTF');
+}
+
+body{
+    background-color: rgb(165, 163, 163);
+}
+
+@font-face {
+    font-family: "OvertheRainbow";
+    src: url('../font/OvertheRainbow.ttf');
+}
+
+header {
+    box-shadow: 0px 0px 8px grey;
+    color: white
+    font-family: OvertheRainbow;
+    background-color: #FFFFFF;
+    height: 125px;
+}
+
+header h1 {
+    font-family: "OvertheRainbow";
+    color: pink;
+}
+
+.sections-wrapper {
+    margin-top: 125px;
+}
+
+article {
+    font-family: Princ;
+}
+
+h2 {
+    font-family:OvertheRainbow;  
+}

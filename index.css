@@ -1,9 +1,9 @@
-body{
+body {
     margin:0;
     font-family: Princ;
 }
 
-main{
+main {
 }
 
 #flower {
@@ -12,35 +12,40 @@ main{
     background-size: cover;
 
 }
- @font-face {
-     font-family: "OvertheRainbow";
-     src: url('font/OvertheRainbow.ttf');
-    }
+
+.sections-wrapper {
+    margin-top: 125px;
+}
+ 
+@font-face {
+    font-family: "OvertheRainbow";
+    src: url('font/OvertheRainbow.ttf');
+}
     
-    *{
-     font-family: OvertheRainbow;
-    
-    }
+* {
+    font-family: OvertheRainbow;
+}
 
-    header h1{
-        font-family:OvertheRainbow;
-        color: white;
-    
-    }
+header h1 {
+    font-family: "OvertheRainbow";
+    color: pink;
+}
 
-    header{
-        color: rgb(245, 245, 245);
-        font-family: OvertheRainbow;
-    }
+header {
+    box-shadow: 0px 0px 8px grey;
+    color: white
+    font-family: "OvertheRainbow";
+    background-color: #FFFFFF;
+    height: 125px;
+}
 
 
-    @font-face {
-        font-family:"Princ";
-        src: url('font/Prince.TTF');
-    }
+@font-face {
+    font-family:"Princ";
+    src: url('font/Prince.TTF');
+}
 
-    *{
-        font-family: Princ;
-       
-       }
+* {
+    font-family: Princ;
+}
 
