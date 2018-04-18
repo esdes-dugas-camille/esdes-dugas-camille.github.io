@@ -42,7 +42,18 @@ h1:hover {
     background-color: black;
 }
 
-section {
+#aboutme {
+
+background-image: url("img/about_me.jpg");
+background-repeat: no-repeat;
+height: 100%;
+background-position:left;
+margin-left: 15px;
+margin-right: 100px;
+align-items: center;
+
+}
+#articles {
     background-color: white;
     display: flex;
     flex-direction:row;
@@ -54,12 +65,12 @@ section {
 
 }
 
-article {
+#articles article {
     position: relative; 
     padding: 10px;
     margin:20px; 
     height: 350px; 
-    width: 25%; 
+    width: 20%; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -124,8 +135,7 @@ article p {
 #expériencesprofessionnelles {background-image: url("img/postit.jpg");}
 #centresdinterets {background-image: url("img/map.jpg");}
 #competences {background-image: url("img/compet.jpg");}
-#article5 {background-image: url("img/coffee.jpg");}
-#article6 {background-image: url("img/flower.jpg");}
+#aboutme {background-image: url("img/about_me.jpg");}
 
 
 
