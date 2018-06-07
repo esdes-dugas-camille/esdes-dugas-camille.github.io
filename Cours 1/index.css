@@ -7,9 +7,11 @@ body {
     margin: 0;
     
 }
-
+a {
+    text-decoration: none;
+}
 header {
-    background-image: url("img/fougere.jpg");
+    background-image: url("img/white_flower.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     height: 100%;
@@ -18,16 +20,21 @@ header {
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    
+  
 }
 
 header path {
     fill: transparent;
-    stroke:white;
+    stroke: rgb(124, 120, 120);
+    transition: fill 1s ease-in-out;
+}
+
+header path.show {
+    fill:rgb(124, 120, 120);
 }
 
 h1 {
-    color:white; 
+    color:rgb(124, 120, 120); 
     letter-spacing: 10px;
     font-family: bromello;  
     font-size: 150px;
@@ -42,17 +49,45 @@ h1:hover {
     background-color: black;
 }
 
-#aboutme {
+/******
+* ABOUT ME SECTION
+*/
 
-background-image: url("img/about_me.jpg");
-background-repeat: no-repeat;
-height: 100%;
-background-position:left;
-margin-left: 15px;
-margin-right: 100px;
-align-items: center;
+#about-me {
+    margin-top : 10px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#about-me img {
+    height: 100%;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+#about-me p {
+    font-family: century;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 40px;
+    flex-direction: row;
+}
+
+#about-me h2  { 
+    
+    font-family: bromello;
+    font-size: 90px;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-top: 100px;
+
 
 }
+
 #articles {
     background-color: white;
     display: flex;
@@ -97,7 +132,7 @@ align-items: center;
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: rgba(25,25,25,.4);
+    background-color: rgba(247, 242, 242, 0.4);
     z-index: -1;
 }
 
@@ -112,11 +147,12 @@ align-items: center;
     background-position: center;
     z-index: -2;
     filter:grayscale(1);
+    transition: all 0.3s ease-in-out;
 }
 
 
 article h2{
-    color: rgb(218, 172, 21);
+    color: rgb(243, 200, 57);
 }
 
 article:hover .bg-img {
@@ -125,9 +161,43 @@ article:hover .bg-img {
     
 }
 
-article p {
-    color: white;
+footer {
+    position:fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:  rgb(109, 105, 105);
+   color: white;
+   text-align: center;
+   text-justify: newspaper;
+   font-family: kg;
+   font-size: 13px;
+   
 }
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    align-items:flex-end;
+  }
+
+  
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  
 
 
 /* Image for articles */
@@ -135,7 +205,7 @@ article p {
 #expériencesprofessionnelles {background-image: url("img/postit.jpg");}
 #centresdinterets {background-image: url("img/map.jpg");}
 #competences {background-image: url("img/compet.jpg");}
-#aboutme {background-image: url("img/about_me.jpg");}
+
 
 
 
@@ -182,4 +252,9 @@ article p {
 @font-face{
     font-family:kg;
     src:url(kg.ttf)
+}
+
+@font-face{
+    font-family:century;
+    src:url(century.ttf)
 }
